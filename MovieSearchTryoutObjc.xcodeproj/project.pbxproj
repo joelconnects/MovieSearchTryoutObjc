@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D564BDE1E5A88AC00F4B29B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564BDD1E5A88AC00F4B29B /* main.m */; };
+		5D564BE91E5A88AC00F4B29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D564BE81E5A88AC00F4B29B /* Assets.xcassets */; };
+		5D564BEC1E5A88AC00F4B29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D564BEA1E5A88AC00F4B29B /* LaunchScreen.storyboard */; };
+		5D564BF71E5A88D000F4B29B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564BF41E5A88D000F4B29B /* AppDelegate.m */; };
+		5D564BF81E5A88D000F4B29B /* MOVConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564BF61E5A88D000F4B29B /* MOVConstants.m */; };
+		5D564C081E5A88E300F4B29B /* MOVMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564BFA1E5A88E300F4B29B /* MOVMovie.m */; };
+		5D564C091E5A88E300F4B29B /* MOVDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564BFC1E5A88E300F4B29B /* MOVDataStore.m */; };
+		5D564C0A1E5A88E300F4B29B /* MOVCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564BFE1E5A88E300F4B29B /* MOVCollectionViewController.m */; };
+		5D564C0B1E5A88E300F4B29B /* MOVDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564C001E5A88E300F4B29B /* MOVDetailViewController.m */; };
+		5D564C0C1E5A88E300F4B29B /* MOVCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564C021E5A88E300F4B29B /* MOVCollectionViewCell.m */; };
+		5D564C0D1E5A88E300F4B29B /* MOVCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564C041E5A88E300F4B29B /* MOVCollectionReusableView.m */; };
+		5D564C0E1E5A88E300F4B29B /* MOVOMDbAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D564C061E5A88E300F4B29B /* MOVOMDbAPIClient.m */; };
+		5D564C0F1E5A88E300F4B29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D564C071E5A88E300F4B29B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D564BD91E5A88AC00F4B29B /* MovieSearchTryoutObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSearchTryoutObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D564BDD1E5A88AC00F4B29B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D564BE81E5A88AC00F4B29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D564BEB1E5A88AC00F4B29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D564BED1E5A88AC00F4B29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D564BF31E5A88D000F4B29B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D564BF41E5A88D000F4B29B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D564BF51E5A88D000F4B29B /* MOVConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVConstants.h; sourceTree = "<group>"; };
+		5D564BF61E5A88D000F4B29B /* MOVConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVConstants.m; sourceTree = "<group>"; };
+		5D564BF91E5A88E300F4B29B /* MOVMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVMovie.h; sourceTree = "<group>"; };
+		5D564BFA1E5A88E300F4B29B /* MOVMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVMovie.m; sourceTree = "<group>"; };
+		5D564BFB1E5A88E300F4B29B /* MOVDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVDataStore.h; sourceTree = "<group>"; };
+		5D564BFC1E5A88E300F4B29B /* MOVDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVDataStore.m; sourceTree = "<group>"; };
+		5D564BFD1E5A88E300F4B29B /* MOVCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVCollectionViewController.h; sourceTree = "<group>"; };
+		5D564BFE1E5A88E300F4B29B /* MOVCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVCollectionViewController.m; sourceTree = "<group>"; };
+		5D564BFF1E5A88E300F4B29B /* MOVDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVDetailViewController.h; sourceTree = "<group>"; };
+		5D564C001E5A88E300F4B29B /* MOVDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVDetailViewController.m; sourceTree = "<group>"; };
+		5D564C011E5A88E300F4B29B /* MOVCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVCollectionViewCell.h; sourceTree = "<group>"; };
+		5D564C021E5A88E300F4B29B /* MOVCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVCollectionViewCell.m; sourceTree = "<group>"; };
+		5D564C031E5A88E300F4B29B /* MOVCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVCollectionReusableView.h; sourceTree = "<group>"; };
+		5D564C041E5A88E300F4B29B /* MOVCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVCollectionReusableView.m; sourceTree = "<group>"; };
+		5D564C051E5A88E300F4B29B /* MOVOMDbAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOVOMDbAPIClient.h; sourceTree = "<group>"; };
+		5D564C061E5A88E300F4B29B /* MOVOMDbAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOVOMDbAPIClient.m; sourceTree = "<group>"; };
+		5D564C071E5A88E300F4B29B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D564BD61E5A88AC00F4B29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D564BD01E5A88AC00F4B29B = {
+			isa = PBXGroup;
+			children = (
+				5D564BDB1E5A88AC00F4B29B /* MovieSearchTryoutObjc */,
+				5D564BDA1E5A88AC00F4B29B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D564BDA1E5A88AC00F4B29B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D564BD91E5A88AC00F4B29B /* MovieSearchTryoutObjc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D564BDB1E5A88AC00F4B29B /* MovieSearchTryoutObjc */ = {
+			isa = PBXGroup;
+			children = (
+				5D564BF31E5A88D000F4B29B /* AppDelegate.h */,
+				5D564BF41E5A88D000F4B29B /* AppDelegate.m */,
+				5D564BF51E5A88D000F4B29B /* MOVConstants.h */,
+				5D564BF61E5A88D000F4B29B /* MOVConstants.m */,
+				5D564C101E5A88F100F4B29B /* Model */,
+				5D564C121E5A88FD00F4B29B /* Controllers */,
+				5D564C111E5A88F900F4B29B /* View */,
+				5D564C131E5A895000F4B29B /* Supporting Files */,
+			);
+			path = MovieSearchTryoutObjc;
+			sourceTree = "<group>";
+		};
+		5D564C101E5A88F100F4B29B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D564BF91E5A88E300F4B29B /* MOVMovie.h */,
+				5D564BFA1E5A88E300F4B29B /* MOVMovie.m */,
+				5D564BFB1E5A88E300F4B29B /* MOVDataStore.h */,
+				5D564BFC1E5A88E300F4B29B /* MOVDataStore.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5D564C111E5A88F900F4B29B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D564C011E5A88E300F4B29B /* MOVCollectionViewCell.h */,
+				5D564C021E5A88E300F4B29B /* MOVCollectionViewCell.m */,
+				5D564C031E5A88E300F4B29B /* MOVCollectionReusableView.h */,
+				5D564C041E5A88E300F4B29B /* MOVCollectionReusableView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5D564C121E5A88FD00F4B29B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D564BFD1E5A88E300F4B29B /* MOVCollectionViewController.h */,
+				5D564BFE1E5A88E300F4B29B /* MOVCollectionViewController.m */,
+				5D564BFF1E5A88E300F4B29B /* MOVDetailViewController.h */,
+				5D564C001E5A88E300F4B29B /* MOVDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5D564C131E5A895000F4B29B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D564C051E5A88E300F4B29B /* MOVOMDbAPIClient.h */,
+				5D564C061E5A88E300F4B29B /* MOVOMDbAPIClient.m */,
+				5D564C071E5A88E300F4B29B /* Main.storyboard */,
+				5D564BE81E5A88AC00F4B29B /* Assets.xcassets */,
+				5D564BEA1E5A88AC00F4B29B /* LaunchScreen.storyboard */,
+				5D564BED1E5A88AC00F4B29B /* Info.plist */,
+				5D564BDD1E5A88AC00F4B29B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D564BD81E5A88AC00F4B29B /* MovieSearchTryoutObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D564BF01E5A88AC00F4B29B /* Build configuration list for PBXNativeTarget "MovieSearchTryoutObjc" */;
+			buildPhases = (
+				5D564BD51E5A88AC00F4B29B /* Sources */,
+				5D564BD61E5A88AC00F4B29B /* Frameworks */,
+				5D564BD71E5A88AC00F4B29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieSearchTryoutObjc;
+			productName = MovieSearchTryoutObjc;
+			productReference = 5D564BD91E5A88AC00F4B29B /* MovieSearchTryoutObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D564BD11E5A88AC00F4B29B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CraftedByCrazy;
+				TargetAttributes = {
+					5D564BD81E5A88AC00F4B29B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KHZ7KMZGFR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D564BD41E5A88AC00F4B29B /* Build configuration list for PBXProject "MovieSearchTryoutObjc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D564BD01E5A88AC00F4B29B;
+			productRefGroup = 5D564BDA1E5A88AC00F4B29B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D564BD81E5A88AC00F4B29B /* MovieSearchTryoutObjc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D564BD71E5A88AC00F4B29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D564C0F1E5A88E300F4B29B /* Main.storyboard in Resources */,
+				5D564BEC1E5A88AC00F4B29B /* LaunchScreen.storyboard in Resources */,
+				5D564BE91E5A88AC00F4B29B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D564BD51E5A88AC00F4B29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D564C0E1E5A88E300F4B29B /* MOVOMDbAPIClient.m in Sources */,
+				5D564BF71E5A88D000F4B29B /* AppDelegate.m in Sources */,
+				5D564C0D1E5A88E300F4B29B /* MOVCollectionReusableView.m in Sources */,
+				5D564C0B1E5A88E300F4B29B /* MOVDetailViewController.m in Sources */,
+				5D564BDE1E5A88AC00F4B29B /* main.m in Sources */,
+				5D564C0C1E5A88E300F4B29B /* MOVCollectionViewCell.m in Sources */,
+				5D564BF81E5A88D000F4B29B /* MOVConstants.m in Sources */,
+				5D564C081E5A88E300F4B29B /* MOVMovie.m in Sources */,
+				5D564C091E5A88E300F4B29B /* MOVDataStore.m in Sources */,
+				5D564C0A1E5A88E300F4B29B /* MOVCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D564BEA1E5A88AC00F4B29B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D564BEB1E5A88AC00F4B29B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D564BEE1E5A88AC00F4B29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D564BEF1E5A88AC00F4B29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D564BF11E5A88AC00F4B29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHZ7KMZGFR;
+				INFOPLIST_FILE = MovieSearchTryoutObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CraftedByCrazy.MovieSearchTryoutObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D564BF21E5A88AC00F4B29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KHZ7KMZGFR;
+				INFOPLIST_FILE = MovieSearchTryoutObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CraftedByCrazy.MovieSearchTryoutObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D564BD41E5A88AC00F4B29B /* Build configuration list for PBXProject "MovieSearchTryoutObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D564BEE1E5A88AC00F4B29B /* Debug */,
+				5D564BEF1E5A88AC00F4B29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D564BF01E5A88AC00F4B29B /* Build configuration list for PBXNativeTarget "MovieSearchTryoutObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D564BF11E5A88AC00F4B29B /* Debug */,
+				5D564BF21E5A88AC00F4B29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D564BD11E5A88AC00F4B29B /* Project object */;
+}
